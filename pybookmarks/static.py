@@ -1,0 +1,5 @@
+""" version which can be consumed from within the module """
+VERSION_STR = "0.0.1"
+DESCRIPTION = "Book mark manager and sync between browsers"
+APP_NAME = "pybookmarks"
+LOGGER_NAME = "pybookmarks"
