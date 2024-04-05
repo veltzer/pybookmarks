@@ -1,0 +1,10 @@
+# THIS IS AN AUTO-GENERATED FILE. DO NOT EDIT!
+pyclassifiers
+pymakehelper
+pydmt
+pytest
+pytest-cov
+flake8
+pylint
+mypy
+types-requests
