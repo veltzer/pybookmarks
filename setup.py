@@ -46,7 +46,6 @@ setuptools.setup(
         "Programming Language :: Python :: 3 :: Only",
         "Programming Language :: Python :: 3.12",
         "Topic :: Utilities",
-        "License :: OSI Approved :: MIT License",
     ],
     entry_points={"console_scripts": [
         "pybookmarks=pybookmarks.main:main",
