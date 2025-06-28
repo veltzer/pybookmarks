@@ -7,14 +7,15 @@ config_requires: list[str] = [
     "pyclassifiers",
 ]
 build_requires: list[str] = [
-    "pymakehelper",
     "pydmt",
+    "pymakehelper",
 ]
 test_requires: list[str] = [
     "pytest",
-    "pytest-cov",
     "pylint",
     "mypy",
+    "ruff",
+    # types
     "types-requests",
 ]
 requires = config_requires + build_requires + test_requires
