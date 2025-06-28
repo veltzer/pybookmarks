@@ -1,8 +1,8 @@
 """ python deps for this project """
 
-console_scripts: list[str] = [
-    "pybookmarks=pybookmarks.main:main",
-]
+scripts: dict[str,str] = {
+    "pybookmarks": "pybookmarks.main:main",
+}
 config_requires: list[str] = [
     "pyclassifiers",
 ]
