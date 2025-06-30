@@ -1,23 +1,13 @@
 """ python deps for this project """
 
+import config.shared
+
 scripts: dict[str,str] = {
     "pybookmarks": "pybookmarks.main:main",
 }
-config_requires: list[str] = [
-    "pyclassifiers",
-]
-build_requires: list[str] = [
-    "hatch",
-    "pydmt",
-    "pymakehelper",
-    "pycmdtools",
-]
-test_requires: list[str] = [
-    "pytest",
-    "pylint",
-    "mypy",
-    "ruff",
-    # types
+build_requires: list[str] = config.shared.PBUILD
+test_requires: list[str] = config.shared.PTEST
+types_requires: list[str] = [
     "types-requests",
 ]
-requires = config_requires + build_requires + test_requires
+requires = build_requires + test_requires + types_requires
