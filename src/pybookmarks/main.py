@@ -1,12 +1,13 @@
 """
 main
 """
-import sys
 import json
-import pylogconf.core
-from pytconf import register_endpoint, register_main, config_arg_parse_and_launch
+import sys
 
-from pybookmarks.static import DESCRIPTION, APP_NAME, VERSION_STR
+import pylogconf.core
+from pytconf import config_arg_parse_and_launch, register_endpoint, register_main
+
+from pybookmarks.static import APP_NAME, DESCRIPTION, VERSION_STR
 from pybookmarks.utils import get_accounts
 
 

@@ -3,8 +3,8 @@ Utilities
 """
 
 
-import os.path
 import json
+import os.path
 
 
 def get_accounts():
