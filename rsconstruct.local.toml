@@ -9,3 +9,10 @@ src_dirs = ["tera.templates"]
 # declares the dependencies.
 [processor.requirements]
 enabled = false
+
+# Runtime deps so CI installs what the code imports (pylint/mypy resolve them).
+[dependencies]
+pip = [
+    "pylogconf",
+    "pytconf",
+]
