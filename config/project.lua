@@ -8,3 +8,4 @@ KEYWORDS = {
     "json",
     "html",
 }
+PYPI = true
