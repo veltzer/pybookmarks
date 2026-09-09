@@ -505,6 +505,10 @@ wheels = [
 name = "pybookmarks"
 version = "0.0.2"
 source = { editable = "." }
+dependencies = [
+    { name = "pylogconf" },
+    { name = "pytconf" },
+]
 
 [package.dev-dependencies]
 dev = [
@@ -518,6 +522,10 @@ dev = [
 ]
 
 [package.metadata]
+requires-dist = [
+    { name = "pylogconf" },
+    { name = "pytconf" },
+]
 
 [package.metadata.requires-dev]
 dev = [
