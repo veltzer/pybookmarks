@@ -98,7 +98,6 @@ prerelease = "disallow"
 [dependency-groups]
 dev = [
     "mypy",
-    "pylint",
     "pylogconf",
     "pytconf",
     "pytest",
