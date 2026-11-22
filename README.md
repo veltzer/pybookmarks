@@ -5,7 +5,7 @@
 
 description: Book mark manager and sync between browsers
 
-project website: https://veltzer.github.io/pybookmarks
+project website: <https://veltzer.github.io/pybookmarks>
 
 author: Mark Veltzer
 
